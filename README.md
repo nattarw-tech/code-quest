@@ -1,19 +1,22 @@
 # Code Quest — Learn Python by Playing
 
-A browser game that teaches Python from scratch. Program a little robot to escape mazes,
-collect coins, and draw shapes — using **real Python** running in your browser (via [Pyodide](https://pyodide.org)).
+[![Play Now](https://img.shields.io/badge/▶_Play_Now-code--quest--gamma.vercel.app-7c5cff?style=for-the-badge)](https://code-quest-gamma.vercel.app/)
 
-## How to run
+A browser game that teaches Python from scratch. You write real Python code to move a
+robot through mazes, collect coins, and draw shapes on screen.
 
-Double-click **`run.bat`** (Windows) or run **`./run.sh`** (Mac/Linux). It starts a tiny local
-web server and opens the game in your browser automatically.
+## How to run it on your own computer
 
-> Why not just double-click `index.html`? Browsers block the Python engine from loading
-> when a page is opened directly from disk (`file://...`). Running a local server (which
-> `run.bat`/`run.sh` do for you) fixes this. Nothing is sent over the network — it's all
-> running on your own machine.
+Double-click **`run.bat`** (Windows) or run **`./run.sh`** (Mac/Linux). This opens the
+game in your browser automatically.
 
-To stop the server, close the "Python Quest Server" window or press any key in the launcher window.
+> Why can't I just open `index.html` directly? The game needs to load its Python engine
+> from a local web address, and browsers won't allow that when a file is opened straight
+> from disk. `run.bat`/`run.sh` start a small local server to get around this — nothing
+> leaves your computer, it's all running locally.
+
+To stop the server, close the "Python Quest Server" window, or press any key in the
+launcher window.
 
 ## Project structure
 
